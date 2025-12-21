@@ -22,23 +22,30 @@ main {
 
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate2;
     background-color: white;
+    border-radius: 10px;
+
 }
 
 thead {
     background-color: var(--blau);
     color: white;
+    border-radius: 10px;
 }
 
-th, td {
+th {
     padding: 0.75rem;
-    border: 1px solid #ddd;
+    border: 0px solid var(--blau);
     vertical-align: top;
+    border-radius: 10px;
 }
 
-tbody tr:nth-child(even) {
-    background-color: var(--blau-clar);
+td {
+    padding: 0.75rem;
+    border: 0px solid var(--blau);
+    vertical-align: top;
+    border-radius: 10px;
 }
 
 ul {

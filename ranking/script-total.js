@@ -5,13 +5,13 @@ fetch("dades.json")
 
         const tbody = document.querySelector("#ranking-table tbody");
 
-        data["OrdreAnimacions"].forEach((nom, index) => {
+        data["Ordre"].forEach((nom, index) => {
             const row = document.createElement("tr");
 
             colla = data[nom]
 
             const animacions = Object.entries(colla["animacions"])
-                .map(([nom, punt]) => `<li>${nom}: ${punt}</li>`)
+                .map(([nom, punt]) => `${nom}: ${punt}<br>`)
                 .join("\n");
 
             row.innerHTML = `

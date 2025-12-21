@@ -11,7 +11,7 @@ fetch("dades.json")
             colla = data[nom]
 
             const animacions = Object.entries(colla["animacions"])
-                .map(([nom, punt]) => `<li>${nom}: ${punt}</li>`)
+                .map(([nom, punt]) => `${nom}: ${punt}<br>`)
                 .join("\n");
 
             row.innerHTML = `
