@@ -1,0 +1,86 @@
+{
+    "Hivern Pataquers URV": {
+        "Bergants": {
+            "Entrada": "2Pd4",
+            "Construccions": [
+                "5d6",
+                "4d7a",
+                "7d6"
+            ],
+            "Pilar": "Pd5",
+            "Sortida": "2Pd4"
+        },
+        "Llunatics": {
+            "Entrada": "Pd4",
+            "Construccions": [
+                "3d5a",
+                "3d6",
+                "4d5a"
+            ],
+            "Pilar": "",
+            "Sortida": ""
+        },
+        "Descargolats": {
+            "Entrada": "2Pd4",
+            "Construccions": [
+                "5d6",
+                "4d7a",
+                "7d6"
+            ],
+            "Pilar": "Pd5",
+            "Sortida": ""
+        },
+        "Marracos": {
+            "Entrada": "2Pd4",
+            "Construccions": [
+                "5d6",
+                "4d7a",
+                "7d6"
+            ],
+            "Pilar": "",
+            "Sortida": "2Pd4"
+        }
+    },
+    "Hivern Penjats URV": {
+        "Bergants": {
+            "Entrada": "2Pd4",
+            "Construccions": [
+                "5d6",
+                "4d7a",
+                "7d6"
+            ],
+            "Pilar": "Pd5",
+            "Sortida": "2Pd4"
+        },
+        "Llunatics": {
+            "Entrada": "Pd4",
+            "Construccions": [
+                "3d5a",
+                "3d6",
+                "4d5a"
+            ],
+            "Pilar": "",
+            "Sortida": ""
+        },
+        "Descargolats": {
+            "Entrada": "2Pd4",
+            "Construccions": [
+                "5d6",
+                "4d7a",
+                "7d6"
+            ],
+            "Pilar": "Pd5",
+            "Sortida": ""
+        },
+        "Marracos": {
+            "Entrada": "2Pd4",
+            "Construccions": [
+                "5d6",
+                "4d7a",
+                "7d6"
+            ],
+            "Pilar": "",
+            "Sortida": "2Pd4"
+        }
+    }
+}
