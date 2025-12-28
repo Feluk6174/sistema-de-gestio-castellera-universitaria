@@ -29,12 +29,12 @@ table {
 }
 
 thead {
-    background-color: var(--blau);
     color: white;
     border-radius: 10px;
 }
 
 th {
+    background-color: var(--blau);
     padding: 0.75rem;
     border: 0px solid var(--blau);
     vertical-align: top;

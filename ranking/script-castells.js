@@ -11,11 +11,11 @@ fetch("dades.json")
             console.log(colors_colles[nom])
             row.innerHTML = `
                 <td>${index + 1}</td>
-                <td bgcolor=${colors_colles[nom]}>${nom}</td>
-                <td bgcolor=${colors_castells[colla.millorsCastells[0]]}>${colla.millorsCastells[0]}</td>
-                <td bgcolor=${colors_castells[colla.millorsCastells[1]]}>${colla.millorsCastells[1]}</td>
-                <td bgcolor=${colors_castells[colla.millorsCastells[2]]}>${colla.millorsCastells[2]}</td>
-                <td bgcolor=${colors_castells[colla.millorPilar]}>${colla.millorPilar}</td>
+                <td style="background-color:${colors_colles[nom]}">${nom}</td>
+                <td style="background-color:${colors_grups[grups_castells[colla.millorsCastells[0]]]["bg"]}; color:${colors_grups[grups_castells[colla.millorsCastells[0]]]["txt"]}">${colla.millorsCastells[0]}</td>
+                <td style="background-color:${colors_grups[grups_castells[colla.millorsCastells[1]]]["bg"]}; color:${colors_grups[grups_castells[colla.millorsCastells[1]]]["txt"]}">${colla.millorsCastells[1]}</td>
+                <td style="background-color:${colors_grups[grups_castells[colla.millorsCastells[2]]]["bg"]}; color:${colors_grups[grups_castells[colla.millorsCastells[2]]]["txt"]}">${colla.millorsCastells[2]}</td>
+                <td style="background-color:${colors_grups[grups_castells[colla.millorPilar]]["bg"]}; color:${colors_grups[grups_castells[colla.millorPilar]]["txt"]}">${colla.millorPilar}</td>
             `;
 
             tbody.appendChild(row);

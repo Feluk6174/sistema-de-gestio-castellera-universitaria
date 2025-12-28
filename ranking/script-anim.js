@@ -17,7 +17,7 @@ fetch("dades.json")
             row.innerHTML = `
                 <td>${index + 1}</td>
                 <td bgcolor=${colors_colles[nom]}>${nom}</td>
-                <td>${animacions}</td>
+                <td bgcolor=${gris_fons_taules}>${animacions}</td>
                 <td bgcolor=${color_posicio(colla.posicioMitjaAnim, 5)}>${colla.posicioMitjaAnim}</td>
                 <td bgcolor=${color_puntuacio(colla.puntuacioAnimacio)}>${colla.puntuacioAnimacio}</td>
             `;

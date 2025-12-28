@@ -5,7 +5,7 @@
       "Arreplegats",
       "Pataquers",
       "Bergants",
-      "Xorigers",
+      "Xoriguers",
       "Trempats",
       "Emboirats",
       "Engrescats",
@@ -20,7 +20,7 @@
       "Arreplegats",
       "Pataquers",
       "Bergants",
-      "Xorigers",
+      "Xoriguers",
       "Ganàpies",
       "Marracos",
       "Trempats",
@@ -39,7 +39,7 @@
       "Arreplegats",
       "Pataquers",
       "Bergants",
-      "Xorigers",
+      "Xoriguers",
       "Trempats",
       "Emboirats",
       "Engrescats",
@@ -92,7 +92,7 @@
       ],
       "millorPilar": "Pd6f"
     },
-    "Xorigers": {
+    "Xoriguers": {
       "posicioMitjaAnim": 2,
       "animacions": {
         "Ganàpies": 2,
