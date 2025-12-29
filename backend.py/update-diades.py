@@ -39,7 +39,8 @@ def parse(file:str) -> tuple[str, dict[str]]:
     if any(dades[12][1:]):
         res["Sortida"] = dades[12][1:]
     res["Animacio"] = transpose(sorted(transpose(dades)[1:], key=lambda x: x[1], reverse=False))[0]
-    res["PuntuacionsAnimacio"] = {dades[2][i]:float(dades[3][i].replace(",", ".")) for i in range(1,len(dades[0]))}
+    res["PuntuacionsAnimacio"] = {dades[2][i]:float(dades[3][i].replace(",", ".")) for i in range(1,len(dades[0])) if not dades[2][i] == "Cap"}
+    res["PuntuacionsAnimacio"]["Mitja"] = round(sum(res["PuntuacionsAnimacio"].values())/len(res["PuntuacionsAnimacio"]), ndigits=2)
 
     return nom, res
 

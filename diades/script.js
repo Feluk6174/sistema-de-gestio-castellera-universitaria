@@ -38,7 +38,7 @@ fetch("diades-25-26.json")
                             </tr>` : "")
                         .join("\n");
                     animacioDiv.innerHTML = `
-                        <h3>Puntuació Animacions</h3>
+                        <h3>Posició Animació</h3>
                         <table>
                             <tr class="tr-castells">
                                 <td class="td-castells td-title">

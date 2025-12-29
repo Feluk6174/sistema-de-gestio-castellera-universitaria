@@ -1,47 +1,4 @@
 {
-    "Diada d'Hivern dels Grillats del CBL (2025)\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0": {
-        "Data": "18 de desembre, dijous",
-        "Colles": [
-            "Grillats",
-            "Descargolats"
-        ],
-        "Entrada": [
-            "Pd4",
-            "Pd3"
-        ],
-        "Ronda 1": [
-            "4d6",
-            "2d5"
-        ],
-        "Ronda 2": [
-            "id3d6a",
-            "3d5"
-        ],
-        "Ronda 3": [
-            "3d6",
-            "Pd4C"
-        ],
-        "Ronda 4": [
-            "id3d6a",
-            ""
-        ],
-        "Ronda 5": [
-            "3d5a",
-            ""
-        ],
-        "Sortida": [
-            "",
-            "Pd3"
-        ],
-        "Animacio": [
-            "Grillats",
-            "Descargolats"
-        ],
-        "PuntuacionsAnimacio": {
-            "Komando Kalimotxo": 10.0,
-            "Cap": 10.0
-        }
-    },
     "XXX Aniversari dels Arreplegats de la ZU": {
         "Data": "18 de desembre, dijous",
         "Colles": [
@@ -106,7 +63,51 @@
             "Komando Tornavis": 4.0,
             "Komando Kalipo": 2.0,
             "Esquadro Castanya": 3.5,
-            "Komando Kalimotxo": 1.0
+            "Komando Kalimotxo": 1.0,
+            "Mitja": 3.92
+        }
+    },
+    "Diada d'Hivern dels Grillats del CBL (2025)\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0": {
+        "Data": "18 de desembre, dijous",
+        "Colles": [
+            "Grillats",
+            "Descargolats"
+        ],
+        "Entrada": [
+            "Pd4",
+            "Pd3"
+        ],
+        "Ronda 1": [
+            "4d6",
+            "2d5"
+        ],
+        "Ronda 2": [
+            "id3d6a",
+            "3d5"
+        ],
+        "Ronda 3": [
+            "3d6",
+            "Pd4C"
+        ],
+        "Ronda 4": [
+            "id3d6a",
+            ""
+        ],
+        "Ronda 5": [
+            "3d5a",
+            ""
+        ],
+        "Sortida": [
+            "",
+            "Pd3"
+        ],
+        "Animacio": [
+            "Grillats",
+            "Descargolats"
+        ],
+        "PuntuacionsAnimacio": {
+            "Komando Kalimotxo": 10.0,
+            "Mitja": 10.0
         }
     }
 }
