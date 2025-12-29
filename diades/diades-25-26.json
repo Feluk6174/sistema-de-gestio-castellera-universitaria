@@ -1,86 +1,112 @@
 {
-    "Hivern Pataquers URV": {
-        "Bergants": {
-            "Entrada": "2Pd4",
-            "Construccions": [
-                "5d6",
-                "4d7a",
-                "7d6"
-            ],
-            "Pilar": "Pd5",
-            "Sortida": "2Pd4"
-        },
-        "Llunatics": {
-            "Entrada": "Pd4",
-            "Construccions": [
-                "3d5a",
-                "3d6",
-                "4d5a"
-            ],
-            "Pilar": "",
-            "Sortida": ""
-        },
-        "Descargolats": {
-            "Entrada": "2Pd4",
-            "Construccions": [
-                "5d6",
-                "4d7a",
-                "7d6"
-            ],
-            "Pilar": "Pd5",
-            "Sortida": ""
-        },
-        "Marracos": {
-            "Entrada": "2Pd4",
-            "Construccions": [
-                "5d6",
-                "4d7a",
-                "7d6"
-            ],
-            "Pilar": "",
-            "Sortida": "2Pd4"
+    "Diada d'Hivern dels Grillats del CBL (2025)\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0": {
+        "Data": "18 de desembre, dijous",
+        "Colles": [
+            "Grillats",
+            "Descargolats"
+        ],
+        "Entrada": [
+            "Pd4",
+            "Pd3"
+        ],
+        "Ronda 1": [
+            "4d6",
+            "2d5"
+        ],
+        "Ronda 2": [
+            "id3d6a",
+            "3d5"
+        ],
+        "Ronda 3": [
+            "3d6",
+            "Pd4C"
+        ],
+        "Ronda 4": [
+            "id3d6a",
+            ""
+        ],
+        "Ronda 5": [
+            "3d5a",
+            ""
+        ],
+        "Sortida": [
+            "",
+            "Pd3"
+        ],
+        "Animacio": [
+            "Grillats",
+            "Descargolats"
+        ],
+        "PuntuacionsAnimacio": {
+            "Komando Kalimotxo": 10.0,
+            "Cap": 10.0
         }
     },
-    "Hivern Penjats URV": {
-        "Bergants": {
-            "Entrada": "2Pd4",
-            "Construccions": [
-                "5d6",
-                "4d7a",
-                "7d6"
-            ],
-            "Pilar": "Pd5",
-            "Sortida": "2Pd4"
-        },
-        "Llunatics": {
-            "Entrada": "Pd4",
-            "Construccions": [
-                "3d5a",
-                "3d6",
-                "4d5a"
-            ],
-            "Pilar": "",
-            "Sortida": ""
-        },
-        "Descargolats": {
-            "Entrada": "2Pd4",
-            "Construccions": [
-                "5d6",
-                "4d7a",
-                "7d6"
-            ],
-            "Pilar": "Pd5",
-            "Sortida": ""
-        },
-        "Marracos": {
-            "Entrada": "2Pd4",
-            "Construccions": [
-                "5d6",
-                "4d7a",
-                "7d6"
-            ],
-            "Pilar": "",
-            "Sortida": "2Pd4"
+    "XXX Aniversari dels Arreplegats de la ZU": {
+        "Data": "18 de desembre, dijous",
+        "Colles": [
+            "Arreplegats",
+            "Xoriguers",
+            "Descargolats",
+            "Bergants",
+            "Trempats",
+            "Grillats"
+        ],
+        "Ronda 1": [
+            "4d8sf",
+            "5d7",
+            "4d6",
+            "5d7",
+            "4d7",
+            "3d6"
+        ],
+        "Ronda 2": [
+            "3d8sfC",
+            "2d7f",
+            "2d6",
+            "3d8f",
+            "2d6",
+            "4d6"
+        ],
+        "Ronda 3": [
+            "3d8f",
+            "i3d7a",
+            "id5d6",
+            "2d7f",
+            "Pd6fC",
+            "3d6a"
+        ],
+        "Ronda 4": [
+            "",
+            "4d7",
+            "3d6",
+            "",
+            "",
+            ""
+        ],
+        "Pilar": [
+            "Pd5+2Pd4",
+            "",
+            "",
+            "Pd6f",
+            "",
+            ""
+        ],
+        "Animacio": [
+            "Xoriguers",
+            "Descargolats",
+            "Trempats",
+            "Grillats",
+            "Bergants",
+            "Arreplegats"
+        ],
+        "PuntuacionsAnimacio": {
+            "CagarraAZUs": 10.0,
+            "Komando Sarna": 3.0,
+            "Komando Tornavis": 4.0,
+            "Komando Kalipo": 2.0,
+            "Esquadro Castanya": 3.5,
+            "Komando Kalimotxo": 1.0
         }
     }
 }

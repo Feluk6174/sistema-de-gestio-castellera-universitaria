@@ -1,0 +1,90 @@
+{
+    "Nom": "XXX Aniversari dels Arreplegats de la ZU",
+    "Arreplegats": {
+        "Entrada": "",
+        "Construccions": [
+            "4d8sf",
+            "3d8sfC",
+            "3d8f",
+            "",
+            ""
+        ],
+        "Pilar": "Pd5+2Pd4",
+        "Sortida": "",
+        "Posicio-anim": 6
+    },
+    "Data": "18 de desembre, dijous",
+    "Xoriguers": {
+        "Entrada": "",
+        "Construccions": [
+            "5d7",
+            "2d7f",
+            "i3d7a",
+            "4d7",
+            ""
+        ],
+        "Pilar": "",
+        "Sortida": "",
+        "Posicio-anim": 1
+    },
+    "Descargolats": {
+        "Entrada": "",
+        "Construccions": [
+            "4d6",
+            "2d6",
+            "id5d6",
+            "3d6",
+            ""
+        ],
+        "Pilar": "",
+        "Sortida": "",
+        "Posicio-anim": 2
+    },
+    "Bergants": {
+        "Entrada": "",
+        "Construccions": [
+            "5d7",
+            "3d8f",
+            "2d7f",
+            "",
+            ""
+        ],
+        "Pilar": "Pd6f",
+        "Sortida": "",
+        "Posicio-anim": 5
+    },
+    "Trempats": {
+        "Entrada": "",
+        "Construccions": [
+            "4d7",
+            "2d6",
+            "Pd6fC",
+            "",
+            ""
+        ],
+        "Pilar": "",
+        "Sortida": "",
+        "Posicio-anim": 3
+    },
+    "Grillats": {
+        "Entrada": "",
+        "Construccions": [
+            "3d6",
+            "4d6",
+            "3d6a",
+            "",
+            ""
+        ],
+        "Pilar": "",
+        "Sortida": "",
+        "Posicio-anim": 4
+    },
+    "punts": {
+        "CagarraAZUs": 10.0,
+        "Komando Sarna": 3.0,
+        "Komando Tornavis": 4.0,
+        "Komando Kalipo": 2.0,
+        "Esquadro Castanya": 3.5,
+        "Komando Kalimotxo": 1.0
+    }
+}

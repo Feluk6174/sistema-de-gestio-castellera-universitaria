@@ -1,6 +1,7 @@
 :root {
     --blau: #0b5ed7;
     --blau-clar: #e7f0ff;
+    --gris-fons: #F7F7FF;
 }
 
 body {
@@ -56,4 +57,64 @@ ul {
 .nav-header {
     color: #ffffff;
     text-decoration: none;
+}
+
+.diada {
+    background-color: white;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.diada h2 {
+    background-color: var(--blau);
+    color: white;
+    margin: 0;
+    padding: 0.75rem 1rem;
+}
+
+.colla {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.colla:last-child {
+    border-bottom: none;
+}
+
+.colla h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--blau);
+}
+
+.castells {
+    margin: 0.3rem 0;
+}
+
+.table-castells {
+	display: table;
+}
+.tr-castells {
+	display: table-cell;
+}
+
+.td-castells {
+	display: block;
+    background-color: var(--gris-fons);
+    padding: 0.75rem;
+    border: 0px solid var(--blau);
+    border-radius: 10px;
+}
+
+.td-title {
+    background-color: var(--blau);
+    padding: 0.75rem;
+    border: 0px solid var(--blau);
+    vertical-align: top;
+    border-radius: 10px;
+    color: var(--gris-fons);
+}
+
+.td-buit {
+    color: var(--gris-fons)
 }

@@ -197,10 +197,7 @@ grups_castells = {
     "": "0"
 }
 
-
-const participants = 6
-
-function color_posicio(posicio) {  
+function color_posicio(posicio, participants=6) {  
     // colors inicial i final
     const start = { r: 0, g: 0, b: 255 };     // #0000FF
     const end   = { r: 247, g: 247, b: 255 }; // #f9f9ff
