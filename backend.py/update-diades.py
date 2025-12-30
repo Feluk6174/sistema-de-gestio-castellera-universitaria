@@ -23,9 +23,9 @@ def parse(file:str) -> tuple[str, dict[str]]:
     dades = transpose(csv_to_matrix(file))
     #print(dades)
 
-    res["Data"] = res["Data"] = dades[15][2]
+    res["Data"] = res["Data"] = dades[17][1]
     nom = dades[15][1]
-    
+
     res["Colles"] = dades[0][1:]
     if any(dades[4][1:]):
         res["Entrada"] = dades[4][1:]
@@ -38,9 +38,11 @@ def parse(file:str) -> tuple[str, dict[str]]:
         res["Pilar"] = dades[11][1:]
     if any(dades[12][1:]):
         res["Sortida"] = dades[12][1:]
-    res["Animacio"] = transpose(sorted(transpose(dades)[1:], key=lambda x: x[1], reverse=False))[0]
-    res["PuntuacionsAnimacio"] = {dades[2][i]:float(dades[3][i].replace(",", ".")) for i in range(1,len(dades[0])) if not dades[2][i] == "Cap"}
-    res["PuntuacionsAnimacio"]["Mitja"] = round(sum(res["PuntuacionsAnimacio"].values())/len(res["PuntuacionsAnimacio"]), ndigits=2)
+    if any(dades[1][1:]):
+        res["Animacio"] = transpose(sorted(transpose(dades)[1:], key=lambda x: x[1], reverse=False))[0]
+    if any(dades[3][1:]):
+        res["PuntuacionsAnimacio"] = {dades[2][i]:float(dades[3][i].replace(",", ".")) for i in range(1,len(dades[0])) if not dades[2][i] == "Cap"}
+        res["PuntuacionsAnimacio"]["Mitja"] = round(sum(res["PuntuacionsAnimacio"].values())/len(res["PuntuacionsAnimacio"]), ndigits=2)
 
     return nom, res
 
@@ -48,8 +50,9 @@ def parse(file:str) -> tuple[str, dict[str]]:
 def main():
     diades = {}
     
-    for file in os.listdir(os.fsencode("diades")):
-        filename = f"{os.fsencode("diades").decode()}/{os.fsdecode(file)}"
+    for file in reversed(sorted(os.listdir(os.fsencode("diades")))):
+        filename = f"diades/{os.fsdecode(file)}"
+        print(filename)
         nom, info = parse(filename)
         diades[nom] = info
 
