@@ -19,7 +19,9 @@ fetch("/data/ranking-25-26.json")
                 <td bgcolor=${colors_colles[nom]}>${nom}</td>
                 <td bgcolor=${gris_fons_taules}>${animacions}</td>
                 <td bgcolor=${color_posicio(colla.posicioMitjaAnim, 5)}>${colla.posicioMitjaAnim}</td>
+                <td bgcolor=${color_posicio(10-colla.posicioMitjaAnimNorm, 10)}>${colla.posicioMitjaAnimNorm}</td>
                 <td bgcolor=${color_puntuacio(colla.puntuacioAnimacio)}>${colla.puntuacioAnimacio}</td>
+                <td style="background-color:${blau_generic}; color: #ffffff">${colla.totalAnimacio}</td>
             `;
 
             tbody.appendChild(row);

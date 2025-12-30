@@ -1,1 +1,346 @@
-{"Gan\u00e0pies": {"millorsCastells": ["4d8fC", "2d7f", "7d7"], "millorPilar": "Pd5", "puntsCastells": 5125, "puntuacioAnimacio": 10.0, "posicioMitjaAnim": 1.5, "posicioMitjaAnimNorm": 5.0, "animacions": {"Marracos": "1", "Gan\u00e0pies": "2", "Xoriguers": "1", "Trempats": "2"}, "totalAnimacio": 7.5, "puntuacioFinal": 3.7550301811}, "Marracos": {"millorsCastells": ["2d7f", "4d7a", "4d7"], "millorPilar": "Pd6fC", "puntsCastells": 4565, "puntuacioAnimacio": 3.0, "posicioMitjaAnim": 2.5, "posicioMitjaAnimNorm": 5.0, "animacions": {"Marracos": "3", "Gan\u00e0pies": "1", "Llun\u00e0tics": "1", "Emboirats": "5"}, "totalAnimacio": 4.0, "puntuacioFinal": 2.0015090543}, "Arreplegats": {"millorsCastells": ["4d8sf", "3d8sfC", "2d8fmC"], "millorPilar": "Pd6f", "puntsCastells": 9940, "puntuacioAnimacio": 3.9166666666666665, "posicioMitjaAnim": 4.75, "posicioMitjaAnimNorm": 0.0, "animacions": {"Arreplegats": "6", "Gan\u00e0pies": "5", "Bergants": "4", "Trempats": "4"}, "totalAnimacio": 1.9583333333333333, "puntuacioFinal": 0.9811368209}, "Pataquers": {"millorsCastells": ["3d8f", "5d7", "3d8fC"], "millorPilar": "Pd7fm", "puntsCastells": 9345, "puntuacioAnimacio": 5.0, "posicioMitjaAnim": 3.67, "posicioMitjaAnimNorm": 0.0, "animacions": {"Marracos": "5", "Pataquers": "4", "Llun\u00e0tics": "2"}, "totalAnimacio": 2.5, "puntuacioFinal": 1.2525150905}, "Bergants": {"millorsCastells": ["3d8f", "5d7", "2d7f"], "millorPilar": "Pd6f", "puntsCastells": 7275, "puntuacioAnimacio": 5.0, "posicioMitjaAnim": 3.0, "posicioMitjaAnimNorm": 2.5, "animacions": {"Arreplegats": "5", "Pataquers": "1", "Bergants": "3", "Descargolats": "3"}, "totalAnimacio": 3.75, "puntuacioFinal": 1.8775150905}, "Xoriguers": {"millorsCastells": ["5d7", "2d7f", "4d7a"], "millorPilar": "Pd5", "puntsCastells": 5205, "puntuacioAnimacio": 5.0, "posicioMitjaAnim": 2.5, "posicioMitjaAnimNorm": 2.5, "animacions": {"Arreplegats": "1", "Gan\u00e0pies": "3", "Xoriguers": "3", "Emboirats": "3"}, "totalAnimacio": 3.75, "puntuacioFinal": 1.8775150905}, "Trempats": {"millorsCastells": ["4d7", "2d6", "7d6"], "millorPilar": "Pd6fC", "puntsCastells": 2820, "puntuacioAnimacio": 3.0, "posicioMitjaAnim": 2.25, "posicioMitjaAnimNorm": 2.5, "animacions": {"Arreplegats": "3", "Penjats": "3", "Passerells": "2", "Trempats": "1"}, "totalAnimacio": 2.75, "puntuacioFinal": 1.3765090543}, "Emboirats": {"millorsCastells": ["2d6", "5d6", "4d6a"], "millorPilar": "Pd4s", "puntsCastells": 1105, "puntuacioAnimacio": 5.0, "posicioMitjaAnim": 1.5, "posicioMitjaAnimNorm": 5.0, "animacions": {"Marracos": "2", "Penjats": "1", "Xoriguers": "2", "Emboirats": "1"}, "totalAnimacio": 5.0, "puntuacioFinal": 2.5025150905}, "Engrescats": {"millorsCastells": ["7d6", "5d6", "4d6a"], "millorPilar": "Pd4s", "puntsCastells": 1035, "puntuacioAnimacio": 5.0, "posicioMitjaAnim": 2.5, "posicioMitjaAnimNorm": 2.5, "animacions": {"Engrescats": "1", "Gan\u00e0pies": "4", "Bergants": "2", "Trempats": "3"}, "totalAnimacio": 3.75, "puntuacioFinal": 1.8775150905}, "Penjats": {"millorsCastells": ["7d6", "5d6", "4d6a"], "millorPilar": "Pd4", "puntsCastells": 1005, "puntuacioAnimacio": 5.0, "posicioMitjaAnim": 2.75, "posicioMitjaAnimNorm": 2.5, "animacions": {"Marracos": "4", "Penjats": "2", "Bergants": "1", "Emboirats": "4"}, "totalAnimacio": 3.75, "puntuacioFinal": 1.8775150905}, "Descargolats": {"millorsCastells": ["2d6", "4d6a", "3d6a"], "millorPilar": "Pd4", "puntsCastells": 985, "puntuacioAnimacio": 5.0, "posicioMitjaAnim": 2.25, "posicioMitjaAnimNorm": 2.5, "animacions": {"Arreplegats": "2", "Pataquers": "3", "Passerells": "3", "Descargolats": "1"}, "totalAnimacio": 3.75, "puntuacioFinal": 1.8775150905}, "Llun\u00e0tics": {"millorsCastells": ["5d6", "4d6a", "3d6a"], "millorPilar": "Pd4", "puntsCastells": 900, "puntuacioAnimacio": 5.0, "posicioMitjaAnim": 3.0, "posicioMitjaAnimNorm": 0.0, "animacions": {"Engrescats": "3", "Pataquers": "2", "Llun\u00e0tics": "3", "Descargolats": "4"}, "totalAnimacio": 2.5, "puntuacioFinal": 1.2525150905}, "Passerells": {"millorsCastells": ["5d6C", "3d6a", "3d6"], "millorPilar": "Pd4s", "puntsCastells": 790, "puntuacioAnimacio": 5.0, "posicioMitjaAnim": 1.75, "posicioMitjaAnimNorm": 2.5, "animacions": {"Engrescats": "2", "Grillats": "2", "Passerells": "1", "Emboirats": "2"}, "totalAnimacio": 3.75, "puntuacioFinal": 1.8775150905}, "Grillats": {"millorsCastells": ["3d6a", "3d6", "4d6"], "millorPilar": "Pd4", "puntsCastells": 675, "puntuacioAnimacio": 10.0, "posicioMitjaAnim": 2.75, "posicioMitjaAnimNorm": 2.5, "animacions": {"Arreplegats": "4", "Grillats": "1", "Llun\u00e0tics": "4", "Descargolats": "2"}, "totalAnimacio": 6.25, "puntuacioFinal": 3.1300301811}, "Gambirots": {"millorsCastells": ["3d5a", "3d5C"], "millorPilar": "Pd4s", "puntsCastells": 130, "puntuacioAnimacio": "NaN", "posicioMitjaAnim": "NaN", "posicioMitjaAnimNorm": "NaN", "animacions": {}, "totalAnimacio": "NaN", "puntuacioFinal": 0.0}, "Ordre": ["Gan\u00e0pies", "Grillats", "Emboirats", "Marracos", "Bergants", "Xoriguers", "Engrescats", "Penjats", "Descargolats", "Passerells", "Trempats", "Pataquers", "Llun\u00e0tics", "Arreplegats", "Gambirots"], "OrdreCastells": ["Arreplegats", "Pataquers", "Bergants", "Xoriguers", "Gan\u00e0pies", "Marracos", "Trempats", "Emboirats", "Engrescats", "Penjats", "Descargolats", "Llun\u00e0tics", "Passerells", "Grillats", "Gambirots"], "OrdreAnimacions": ["Gan\u00e0pies", "Grillats", "Emboirats", "Marracos", "Bergants", "Xoriguers", "Engrescats", "Penjats", "Descargolats", "Passerells", "Trempats", "Pataquers", "Llun\u00e0tics", "Arreplegats", "Gambirots"]}
+{
+    "Gan\u00e0pies": {
+        "millorsCastells": [
+            "4d8fC",
+            "2d7f",
+            "7d7"
+        ],
+        "millorPilar": "Pd5",
+        "puntsCastells": 5125,
+        "puntuacioAnimacio": 10.0,
+        "posicioMitjaAnim": 1.5,
+        "posicioMitjaAnimNorm": 5.0,
+        "animacions": {
+            "Marracos": "1",
+            "Gan\u00e0pies": "2",
+            "Xoriguers": "1",
+            "Trempats": "2"
+        },
+        "totalAnimacio": 7.5,
+        "puntuacioFinal": 3.7550301811
+    },
+    "Marracos": {
+        "millorsCastells": [
+            "2d7f",
+            "4d7a",
+            "4d7"
+        ],
+        "millorPilar": "Pd6fC",
+        "puntsCastells": 4565,
+        "puntuacioAnimacio": 3.0,
+        "posicioMitjaAnim": 2.5,
+        "posicioMitjaAnimNorm": 5.0,
+        "animacions": {
+            "Marracos": "3",
+            "Gan\u00e0pies": "1",
+            "Llun\u00e0tics": "1",
+            "Emboirats": "5"
+        },
+        "totalAnimacio": 4.0,
+        "puntuacioFinal": 2.0015090543
+    },
+    "Arreplegats": {
+        "millorsCastells": [
+            "4d8sf",
+            "3d8sfC",
+            "2d8fmC"
+        ],
+        "millorPilar": "Pd6f",
+        "puntsCastells": 9940,
+        "puntuacioAnimacio": 3.9166666666666665,
+        "posicioMitjaAnim": 4.75,
+        "posicioMitjaAnimNorm": 0.0,
+        "animacions": {
+            "Arreplegats": "6",
+            "Gan\u00e0pies": "5",
+            "Bergants": "4",
+            "Trempats": "4"
+        },
+        "totalAnimacio": 1.9583333333333333,
+        "puntuacioFinal": 0.9811368209
+    },
+    "Pataquers": {
+        "millorsCastells": [
+            "3d8f",
+            "5d7",
+            "3d8fC"
+        ],
+        "millorPilar": "Pd7fm",
+        "puntsCastells": 9345,
+        "puntuacioAnimacio": 5.0,
+        "posicioMitjaAnim": 3.67,
+        "posicioMitjaAnimNorm": 0.0,
+        "animacions": {
+            "Marracos": "5",
+            "Pataquers": "4",
+            "Llun\u00e0tics": "2"
+        },
+        "totalAnimacio": 2.5,
+        "puntuacioFinal": 1.2525150905
+    },
+    "Bergants": {
+        "millorsCastells": [
+            "3d8f",
+            "5d7",
+            "2d7f"
+        ],
+        "millorPilar": "Pd6f",
+        "puntsCastells": 7275,
+        "puntuacioAnimacio": 5.0,
+        "posicioMitjaAnim": 3.0,
+        "posicioMitjaAnimNorm": 2.5,
+        "animacions": {
+            "Arreplegats": "5",
+            "Pataquers": "1",
+            "Bergants": "3",
+            "Descargolats": "3"
+        },
+        "totalAnimacio": 3.75,
+        "puntuacioFinal": 1.8775150905
+    },
+    "Xoriguers": {
+        "millorsCastells": [
+            "5d7",
+            "2d7f",
+            "4d7a"
+        ],
+        "millorPilar": "Pd5",
+        "puntsCastells": 5205,
+        "puntuacioAnimacio": 5.0,
+        "posicioMitjaAnim": 2.5,
+        "posicioMitjaAnimNorm": 2.5,
+        "animacions": {
+            "Arreplegats": "1",
+            "Gan\u00e0pies": "3",
+            "Xoriguers": "3",
+            "Emboirats": "3"
+        },
+        "totalAnimacio": 3.75,
+        "puntuacioFinal": 1.8775150905
+    },
+    "Trempats": {
+        "millorsCastells": [
+            "4d7",
+            "2d6",
+            "7d6"
+        ],
+        "millorPilar": "Pd6fC",
+        "puntsCastells": 2820,
+        "puntuacioAnimacio": 3.0,
+        "posicioMitjaAnim": 2.25,
+        "posicioMitjaAnimNorm": 2.5,
+        "animacions": {
+            "Arreplegats": "3",
+            "Penjats": "3",
+            "Passerells": "2",
+            "Trempats": "1"
+        },
+        "totalAnimacio": 2.75,
+        "puntuacioFinal": 1.3765090543
+    },
+    "Emboirats": {
+        "millorsCastells": [
+            "2d6",
+            "5d6",
+            "4d6a"
+        ],
+        "millorPilar": "Pd4s",
+        "puntsCastells": 1105,
+        "puntuacioAnimacio": 5.0,
+        "posicioMitjaAnim": 1.5,
+        "posicioMitjaAnimNorm": 5.0,
+        "animacions": {
+            "Marracos": "2",
+            "Penjats": "1",
+            "Xoriguers": "2",
+            "Emboirats": "1"
+        },
+        "totalAnimacio": 5.0,
+        "puntuacioFinal": 2.5025150905
+    },
+    "Engrescats": {
+        "millorsCastells": [
+            "7d6",
+            "5d6",
+            "4d6a"
+        ],
+        "millorPilar": "Pd4s",
+        "puntsCastells": 1035,
+        "puntuacioAnimacio": 5.0,
+        "posicioMitjaAnim": 2.5,
+        "posicioMitjaAnimNorm": 2.5,
+        "animacions": {
+            "Engrescats": "1",
+            "Gan\u00e0pies": "4",
+            "Bergants": "2",
+            "Trempats": "3"
+        },
+        "totalAnimacio": 3.75,
+        "puntuacioFinal": 1.8775150905
+    },
+    "Penjats": {
+        "millorsCastells": [
+            "7d6",
+            "5d6",
+            "4d6a"
+        ],
+        "millorPilar": "Pd4",
+        "puntsCastells": 1005,
+        "puntuacioAnimacio": 5.0,
+        "posicioMitjaAnim": 2.75,
+        "posicioMitjaAnimNorm": 2.5,
+        "animacions": {
+            "Marracos": "4",
+            "Penjats": "2",
+            "Bergants": "1",
+            "Emboirats": "4"
+        },
+        "totalAnimacio": 3.75,
+        "puntuacioFinal": 1.8775150905
+    },
+    "Descargolats": {
+        "millorsCastells": [
+            "2d6",
+            "4d6a",
+            "3d6a"
+        ],
+        "millorPilar": "Pd4",
+        "puntsCastells": 985,
+        "puntuacioAnimacio": 5.0,
+        "posicioMitjaAnim": 2.25,
+        "posicioMitjaAnimNorm": 2.5,
+        "animacions": {
+            "Arreplegats": "2",
+            "Pataquers": "3",
+            "Passerells": "3",
+            "Descargolats": "1"
+        },
+        "totalAnimacio": 3.75,
+        "puntuacioFinal": 1.8775150905
+    },
+    "Llun\u00e0tics": {
+        "millorsCastells": [
+            "5d6",
+            "4d6a",
+            "3d6a"
+        ],
+        "millorPilar": "Pd4",
+        "puntsCastells": 900,
+        "puntuacioAnimacio": 5.0,
+        "posicioMitjaAnim": 3.0,
+        "posicioMitjaAnimNorm": 0.0,
+        "animacions": {
+            "Engrescats": "3",
+            "Pataquers": "2",
+            "Llun\u00e0tics": "3",
+            "Descargolats": "4"
+        },
+        "totalAnimacio": 2.5,
+        "puntuacioFinal": 1.2525150905
+    },
+    "Passerells": {
+        "millorsCastells": [
+            "5d6C",
+            "3d6a",
+            "3d6"
+        ],
+        "millorPilar": "Pd4s",
+        "puntsCastells": 790,
+        "puntuacioAnimacio": 5.0,
+        "posicioMitjaAnim": 1.75,
+        "posicioMitjaAnimNorm": 2.5,
+        "animacions": {
+            "Engrescats": "2",
+            "Grillats": "2",
+            "Passerells": "1",
+            "Emboirats": "2"
+        },
+        "totalAnimacio": 3.75,
+        "puntuacioFinal": 1.8775150905
+    },
+    "Grillats": {
+        "millorsCastells": [
+            "3d6a",
+            "3d6",
+            "4d6"
+        ],
+        "millorPilar": "Pd4",
+        "puntsCastells": 675,
+        "puntuacioAnimacio": 10.0,
+        "posicioMitjaAnim": 2.75,
+        "posicioMitjaAnimNorm": 2.5,
+        "animacions": {
+            "Arreplegats": "4",
+            "Grillats": "1",
+            "Llun\u00e0tics": "4",
+            "Descargolats": "2"
+        },
+        "totalAnimacio": 6.25,
+        "puntuacioFinal": 3.1300301811
+    },
+    "Gambirots": {
+        "millorsCastells": [
+            "3d5a",
+            "3d5C"
+        ],
+        "millorPilar": "Pd4s",
+        "puntsCastells": 130,
+        "puntuacioAnimacio": "NaN",
+        "posicioMitjaAnim": "NaN",
+        "posicioMitjaAnimNorm": "NaN",
+        "animacions": {},
+        "totalAnimacio": "NaN",
+        "puntuacioFinal": 0.0
+    },
+    "Ordre": [
+        "Gan\u00e0pies",
+        "Grillats",
+        "Emboirats",
+        "Marracos",
+        "Bergants",
+        "Xoriguers",
+        "Engrescats",
+        "Penjats",
+        "Descargolats",
+        "Passerells",
+        "Trempats",
+        "Pataquers",
+        "Llun\u00e0tics",
+        "Arreplegats",
+        "Gambirots"
+    ],
+    "OrdreCastells": [
+        "Arreplegats",
+        "Pataquers",
+        "Bergants",
+        "Xoriguers",
+        "Gan\u00e0pies",
+        "Marracos",
+        "Trempats",
+        "Emboirats",
+        "Engrescats",
+        "Penjats",
+        "Descargolats",
+        "Llun\u00e0tics",
+        "Passerells",
+        "Grillats",
+        "Gambirots"
+    ],
+    "OrdreAnimacions": [
+        "Gan\u00e0pies",
+        "Grillats",
+        "Emboirats",
+        "Marracos",
+        "Bergants",
+        "Xoriguers",
+        "Engrescats",
+        "Penjats",
+        "Descargolats",
+        "Passerells",
+        "Trempats",
+        "Pataquers",
+        "Llun\u00e0tics",
+        "Arreplegats",
+        "Gambirots"
+    ]
+}

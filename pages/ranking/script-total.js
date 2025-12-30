@@ -21,9 +21,12 @@ fetch("/data/ranking-25-26.json")
                 <td style="background-color:${colors_grups[grups_castells[colla.millorsCastells[1]]]["bg"]}; color:${colors_grups[grups_castells[colla.millorsCastells[1]]]["txt"]}">${colla.millorsCastells[1]}</td>
                 <td style="background-color:${colors_grups[grups_castells[colla.millorsCastells[2]]]["bg"]}; color:${colors_grups[grups_castells[colla.millorsCastells[2]]]["txt"]}">${colla.millorsCastells[2]}</td>
                 <td style="background-color:${colors_grups[grups_castells[colla.millorPilar]]["bg"]}; color:${colors_grups[grups_castells[colla.millorPilar]]["txt"]}">${colla.millorPilar}</td>
+                <td style="background-color:${blau_generic}; color: #ffffff">${colla.puntsCastells}</td>
                 <td bgcolor=${gris_fons_taules}>${animacions}</td>
                 <td bgcolor=${color_posicio(colla.posicioMitjaAnim, 5)}>${colla.posicioMitjaAnim}</td>
                 <td bgcolor=${color_puntuacio(colla.puntuacioAnimacio)}>${colla.puntuacioAnimacio}</td>
+                <td style="background-color:${blau_generic}; color: #ffffff">${colla.totalAnimacio}</td>
+                <td style="background-color:${blau_generic}; color: #ffffff">${colla.puntuacioFinal}</td>
             `;
 
             tbody.appendChild(row);
