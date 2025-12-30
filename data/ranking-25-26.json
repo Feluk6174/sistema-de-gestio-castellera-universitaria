@@ -1,0 +1,265 @@
+{
+    "Ordre": [
+      "Ganàpies",
+      "Marracos",
+      "Arreplegats",
+      "Pataquers",
+      "Bergants",
+      "Xoriguers",
+      "Trempats",
+      "Emboirats",
+      "Engrescats",
+      "Penjats",
+      "Descargolats",
+      "Llunàtics",
+      "Passerells",
+      "Grillats",
+      "Gambirots"
+    ],
+    "OrdreCastells": [
+      "Arreplegats",
+      "Pataquers",
+      "Bergants",
+      "Xoriguers",
+      "Ganàpies",
+      "Marracos",
+      "Trempats",
+      "Emboirats",
+      "Engrescats",
+      "Penjats",
+      "Descargolats",
+      "Llunàtics",
+      "Passerells",
+      "Grillats",
+      "Gambirots"
+    ],
+    "OrdreAnimacions": [
+      "Marracos",
+      "Ganàpies",
+      "Arreplegats",
+      "Pataquers",
+      "Bergants",
+      "Xoriguers",
+      "Trempats",
+      "Emboirats",
+      "Engrescats",
+      "Penjats",
+      "Descargolats",
+      "Llunàtics",
+      "Passerells",
+      "Grillats",
+      "Gambirots"
+    ],
+    "Arreplegats": {
+      "posicioMitjaAnim": 5,
+      "animacions": {
+        "Ganàpies": 5,
+        "Bergants": 5
+      },
+      "puntuacioAnimacio": 0,
+      "millorsCastells": [
+        "3d8sfC",
+        "4d8sf",
+        "2d8fmC"
+      ],
+      "millorPilar": "Pd6f"
+    },
+    "Pataquers": {
+      "posicioMitjaAnim": 4,
+      "animacions": {
+        "Ganàpies": 4,
+        "Bergants": 4
+      },
+      "puntuacioAnimacio": 1,
+      "millorsCastells": [
+        "3d8f",
+        "5d7",
+        "2d7f"
+      ],
+      "millorPilar": "Pd7fm"
+    },
+    "Bergants": {
+      "posicioMitjaAnim": 3,
+      "animacions": {
+        "Ganàpies": 3,
+        "Bergants": 3
+      },
+      "puntuacioAnimacio": 0,
+      "millorsCastells": [
+        "3d8f",
+        "5d7",
+        "2d7f"
+      ],
+      "millorPilar": "Pd6f"
+    },
+    "Xoriguers": {
+      "posicioMitjaAnim": 2,
+      "animacions": {
+        "Ganàpies": 2,
+        "Bergants": 2
+      },
+      "puntuacioAnimacio": 0,
+      "millorsCastells": [
+        "5d7",
+        "2d7f",
+        "4d7a"
+      ],
+      "millorPilar": "Pd5"
+    },
+    "Ganàpies": {
+      "posicioMitjaAnim": 1,
+      "animacions": {
+        "Ganàpies": 1,
+        "Bergants": 1
+      },
+      "puntuacioAnimacio": 10,
+      "millorsCastells": [
+        "4d8fC",
+        "2d7f",
+        "7d7"
+      ],
+      "millorPilar": "Pd5"
+    },
+    "Marracos": {
+      "posicioMitjaAnim": 2,
+      "animacions": {
+        "Ganàpies": 2,
+        "Bergants": 2
+      },
+      "puntuacioAnimacio": 10,
+      "millorsCastells": [
+        "2d7f",
+        "4d7a",
+        "4d7"
+      ],
+      "millorPilar": "Pd6fC"
+    },
+    "Trempats": {
+      "posicioMitjaAnim": 1,
+      "animacions": {
+        "Ganàpies": 1,
+        "Bergants": 1
+      },
+      "puntuacioAnimacio": 0,
+      "millorsCastells": [
+        "4d7",
+        "2d6",
+        "7d6"
+      ],
+      "millorPilar": "Pd6fC"
+    },
+    "Emboirats": {
+      "posicioMitjaAnim": 1,
+      "animacions": {
+        "Ganàpies": 1,
+        "Bergants": 1
+      },
+      "puntuacioAnimacio": 10,
+      "millorsCastells": [
+        "2d6",
+        "5d6",
+        "4d6a"
+      ],
+      "millorPilar": "Pd4s"
+    },
+    "Engrescats": {
+      "posicioMitjaAnim": 1,
+      "animacions": {
+        "Ganàpies": 1,
+        "Bergants": 1
+      },
+      "puntuacioAnimacio": 5,
+      "millorsCastells": [
+        "7d6",
+        "5d6",
+        "4d6a"
+      ],
+      "millorPilar": "Pd4s"
+    },
+    "Penjats": {
+      "posicioMitjaAnim": 1,
+      "animacions": {
+        "Ganàpies": 1,
+        "Bergants": 1
+      },
+      "puntuacioAnimacio": 6,
+      "millorsCastells": [
+        "4d6",
+        "5d6",
+        "4d6a"
+      ],
+      "millorPilar": "Pd4"
+    },
+    "Descargolats": {
+      "posicioMitjaAnim": 1,
+      "animacions": {
+        "Ganàpies": 1,
+        "Bergants": 1
+      },
+      "puntuacioAnimacio": 7,
+      "millorsCastells": [
+        "2d6",
+        "4d6a",
+        "3d6a"
+      ],
+      "millorPilar": "Pd4"
+    },
+    "Llunàtics": {
+      "posicioMitjaAnim": 1,
+      "animacions": {
+        "Ganàpies": 1,
+        "Bergants": 1
+      },
+      "puntuacioAnimacio": 8,
+      "millorsCastells": [
+        "5d6",
+        "4d6a",
+        "3d6a"
+      ],
+      "millorPilar": "Pd4"
+    },
+    "Passerells": {
+      "posicioMitjaAnim": 1,
+      "animacions": {
+        "Ganàpies": 1,
+        "Bergants": 1
+      },
+      "puntuacioAnimacio": 8.5,
+      "millorsCastells": [
+        "5d6C",
+        "3d6a",
+        "3d6"
+      ],
+      "millorPilar": "Pd4"
+    },
+    "Grillats": {
+      "posicioMitjaAnim": 1,
+      "animacions": {
+        "Ganàpies": 1,
+        "Bergants": 1
+      },
+      "puntuacioAnimacio": 10,
+      "millorsCastells": [
+        "3d6a",
+        "3d6",
+        "4d6"
+      ],
+      "millorPilar": "Pd4"
+    },
+    "Gambirots": {
+      "posicioMitjaAnim": 1,
+      "animacions": {
+        "Ganàpies": 1,
+        "Bergants": 1
+      },
+      "puntuacioAnimacio": 9,
+      "millorsCastells": [
+        "3d5a",
+        "3d5C",
+        ""
+      ],
+      "millorPilar": "Pd4"
+    }
+    
+  }
+  
