@@ -262,9 +262,9 @@ def build_data(castells_dict: dict[str], animacions_dict: dict[str]):
 
         if not len(info["Posicio"]) == 0:
             rankings[colla]["posicioMitjaAnim"] = round(sum(map(lambda x: int(x), info["Posicio"]))/len(info["Posicio"]), ndigits=2)
-            rankings[colla]["posicioMitjaAnimNorm"] = round(sum(map(lambda x: int(x), info["PosicioNorm"]))/len(info["Posicio"])*10, ndigits=2)
+            rankings[colla]["posicioMitjaAnimNorm"] = round(sum(map(lambda x: float(x), info["PosicioNorm"]))/len(info["PosicioNorm"])*10, ndigits=2)
             rankings[colla]["animacions"] = info["PosicionsNom"]
-            rankings[colla]["totalAnimacio"] = (rankings[colla]["posicioMitjaAnimNorm"]+rankings[colla]["puntuacioAnimacio"])/2
+            rankings[colla]["totalAnimacio"] = round((rankings[colla]["posicioMitjaAnimNorm"]+rankings[colla]["puntuacioAnimacio"])/2, ndigits=2)
         else:
             rankings[colla]["posicioMitjaAnim"] = "NaN"
             rankings[colla]["posicioMitjaAnimNorm"] = "NaN"
@@ -273,10 +273,9 @@ def build_data(castells_dict: dict[str], animacions_dict: dict[str]):
 
 
         max_pts_castells = max(map(lambda x: rankings[x]["puntsCastells"], rankings.keys()))
-        castells_norm = rankings[colla]["puntuacioAnimacio"]/max_pts_castells*10 if not rankings[colla]["puntuacioAnimacio"] == "NaN" else 0
-        print(colla, rankings[colla]["totalAnimacio"])
+        castells_norm = rankings[colla]["puntsCastells"]/max_pts_castells*10 if not rankings[colla]["puntuacioAnimacio"] == "NaN" else 0
         anim = rankings[colla]["totalAnimacio"] if not rankings[colla]["totalAnimacio"] == "NaN" else 0
-        print(colla, anim)
+        print(colla, anim, castells_norm, round((anim+castells_norm)/2, ndigits=10))
 
         rankings[colla]["puntuacioFinal"] = round((anim+castells_norm)/2, ndigits=10)
 
