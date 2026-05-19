@@ -1,0 +1,346 @@
+:root {
+  --bg: #f4f7f3;
+  --surface: #ffffff;
+  --text: #1f2a1f;
+  --muted: #5b6b5b;
+  --border: #d8e2d3;
+  --head-bg: #eaf1e7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir Next", "Nunito Sans", "Segoe UI", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 10% 0%, #e7efe5 0%, transparent 36%),
+    radial-gradient(circle at 100% 100%, #e8efe9 0%, transparent 32%),
+    linear-gradient(160deg, #f1f6ef 0%, #f8fbf7 58%, #eef5ef 100%);
+}
+
+a {
+  color: inherit;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(8px);
+  background: rgba(248, 251, 247, 0.86);
+  border-bottom: 1px solid var(--border);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+}
+
+.logo-placeholder {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #2a3a2a;
+  background: #dde8d9;
+}
+
+.brand-name {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.nav-link {
+  display: inline-flex;
+  padding: 0.5rem 0.8rem;
+  border-radius: 999px;
+  text-decoration: none;
+  color: #334233;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  background: #e9f0e6;
+}
+
+.nav-active {
+  background: #d8e7d2;
+  color: #1f2a1f;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.simple-page {
+  min-height: 50vh;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.5rem, 2.8vw, 2.2rem);
+  letter-spacing: 0.2px;
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--muted);
+}
+
+.table-wrap {
+  overflow-x: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 18px 44px rgba(36, 51, 35, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 680px;
+}
+
+th,
+td {
+  padding: 0.95rem 1rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: middle;
+}
+
+th {
+  background: var(--head-bg);
+  font-weight: 700;
+  letter-spacing: 0.25px;
+}
+
+tbody tr:hover {
+  background: #f8fbf7;
+}
+
+tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.positions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.position-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  padding: 0.3rem 0.62rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.team-name {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.team-name-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.36rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.average {
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.status {
+  color: var(--muted);
+}
+
+.diades-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.diada-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.1rem;
+  box-shadow: 0 12px 28px rgba(36, 51, 35, 0.08);
+}
+
+.diada-title {
+  margin: 0;
+  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.72rem;
+  border-radius: 999px;
+}
+
+.diada-date {
+  margin: 0.3rem 0 1rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.section-title {
+  margin: 0.7rem 0 0.6rem;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #3a4a3a;
+}
+
+.podi {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.55rem;
+  margin-bottom: 0.8rem;
+}
+
+.podi-single {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 320px;
+}
+
+.podi-item {
+  border-radius: 12px;
+  padding: 0.75rem 0.65rem;
+}
+
+.podi-pos {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  opacity: 0.9;
+}
+
+.podi-team {
+  margin: 0.25rem 0 0;
+  font-size: 1rem;
+}
+
+.winner-only-note {
+  margin: -0.25rem 0 0.8rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.participants-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.participant-row {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.participant-pos {
+  min-width: 2rem;
+  text-align: center;
+  font-weight: 800;
+  color: #2a3a2a;
+}
+
+.participant-team {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.28rem 0.62rem;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 0.88rem;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: rgba(239, 245, 236, 0.75);
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--muted);
+}
+
+.footer-inner p {
+  margin: 0;
+}
+
+@media (max-width: 720px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-list {
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 0.2rem;
+  }
+
+  .container {
+    padding: 1.2rem 0.6rem 2rem;
+  }
+
+  th,
+  td {
+    padding: 0.7rem 0.75rem;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .podi {
+    grid-template-columns: 1fr;
+  }
+}

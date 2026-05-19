@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rauxa Ranking</title>
+  <title>Diades - Rauxa Ranking</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,33 +15,19 @@
       </a>
       <nav aria-label="Navegacio principal">
         <ul class="nav-list">
-          <li><a class="nav-link nav-active" href="index.html">Ranking</a></li>
-          <li><a class="nav-link" href="diades.html">Diades</a></li>
+          <li><a class="nav-link" href="index.html">Ranking</a></li>
+          <li><a class="nav-link nav-active" href="diades.html">Diades</a></li>
           <li><a class="nav-link" href="qui-som.html">Qui som</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main class="container">
-    <h1>Ranking d'animacions - Primavera 2026</h1>
-    <p class="subtitle">Posicions de cada colla a totes les diades on apareix i la seva mitjana final.</p>
-
-    <section class="table-wrap" aria-live="polite">
-      <table>
-        <thead>
-          <tr>
-            <th>Colla</th>
-            <th>Posicions</th>
-            <th>Mitjana</th>
-          </tr>
-        </thead>
-        <tbody id="ranking-body">
-          <tr>
-            <td colspan="3" class="status">Carregant dades...</td>
-          </tr>
-        </tbody>
-      </table>
+  <main class="container simple-page">
+    <h1>Diades</h1>
+    <p class="subtitle">Resultats de cada diada amb podi i classificacio completa.</p>
+    <section id="diades-list" class="diades-list" aria-live="polite">
+      <p class="status">Carregant diades...</p>
     </section>
   </main>
 
@@ -53,6 +39,6 @@
   </footer>
 
   <script src="js/colors.js"></script>
-  <script src="js/ranking.js"></script>
+  <script src="js/diades.js"></script>
 </body>
 </html>

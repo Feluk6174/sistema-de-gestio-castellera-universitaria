@@ -1,0 +1,57 @@
+{
+  "Arreplegats": {
+    "Data": "07/05/2026",
+    "Ranking": {
+      "Arreplegats": 2,
+      "Descargolats": 2,
+      "Emboirats": 2,
+      "Llunàtics": 2,
+      "Marracos": 1,
+      "Trempats": 2
+    }
+  },
+  "Engrescats": {
+    "Data": "07/05/2026",
+    "Ranking": {}
+  },
+  "Pataquers": {
+    "Data": "07/05/2026",
+    "Ranking": {
+      "Pataquers": 2,
+      "Ganàpies": 1,
+      "Grillats": 2,
+      "Penjats": 2,
+      "Xoriguers": 2
+    }
+  },
+  "Ganàpies": {
+    "Data": "14/05/2026",
+    "Ranking": {
+      "Ganàpies": 2,
+      "Bergants": 4,
+      "Pataquers": 3,
+      "Trempats": 1
+    }
+  },
+  "Grillats": {
+    "Data": "14/05/2026",
+    "Ranking": {}
+  },
+  "Marracos": {
+    "Data": "14/05/2026",
+    "Ranking": {
+      "Marracos": 3,
+      "Arreplegats": 1,
+      "Emboirats": 2
+    }
+  },
+  "Xoriguers": {
+    "Data": "14/05/2026",
+    "Ranking": {
+      "Xoriguers": 2,
+      "Engrescats": 1,
+      "Passerells": 4,
+      "Penjats": 3
+    }
+  }
+}
