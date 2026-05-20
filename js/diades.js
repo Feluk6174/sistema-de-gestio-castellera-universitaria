@@ -142,7 +142,7 @@ function renderDiades(data) {
 
       winnerOnlyWarning = document.createElement("p");
       winnerOnlyWarning.className = "winner-only-note";
-      winnerOnlyWarning.textContent = "* En aquesta diada nomes s'ha anunciat la colla guanyadora; la resta de posicions son valors arbitraris.";
+      winnerOnlyWarning.textContent = "* En aquesta diada nomes s'ha anunciat la colla guanyadora.";
     }
 
     let missingDataWarning = null;
