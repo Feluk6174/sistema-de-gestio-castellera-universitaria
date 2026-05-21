@@ -36,6 +36,11 @@ function buildTeamRows(rawData) {
       return;
     }
 
+    const participantCount = Object.keys(eventInfo.Ranking).length;
+    if (participantCount === 0) {
+      return;
+    }
+
     Object.entries(eventInfo.Ranking).forEach(([colla, posicio]) => {
       if (!teams[colla]) {
         teams[colla] = [];
@@ -43,7 +48,8 @@ function buildTeamRows(rawData) {
 
       teams[colla].push({
         posicio,
-        amfitrio
+        amfitrio,
+        normalized: posicio / participantCount
       });
     });
   });
@@ -51,20 +57,22 @@ function buildTeamRows(rawData) {
   return Object.entries(teams)
     .map(([colla, participacions]) => {
       const onlyPositions = participacions.map((entry) => entry.posicio);
+      const normalizedScores = participacions.map((entry) => entry.normalized);
       return {
         colla,
         participacions,
-        average: Number(formatAverage(onlyPositions))
+        average: Number(formatAverage(onlyPositions)),
+        normalizedAverage: Number(formatAverage(normalizedScores))
       };
     })
-    .sort((a, b) => a.average - b.average || a.colla.localeCompare(b.colla, "ca"));
+    .sort((a, b) => a.normalizedAverage - b.normalizedAverage || a.colla.localeCompare(b.colla, "ca"));
 }
 
 function renderRanking(rows) {
   const tbody = document.getElementById("ranking-body");
 
   if (!rows.length) {
-    tbody.innerHTML = '<tr><td colspan="3" class="status">No hi ha dades disponibles.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="4" class="status">No hi ha dades disponibles.</td></tr>';
     return;
   }
 
@@ -111,9 +119,14 @@ function renderRanking(rows) {
     averageTd.className = "average";
     averageTd.textContent = row.average.toFixed(2);
 
+    const normalizedAverageTd = document.createElement("td");
+    normalizedAverageTd.className = "average";
+    normalizedAverageTd.textContent = row.normalizedAverage.toFixed(2);
+
     tr.appendChild(nameTd);
     tr.appendChild(positionsTd);
     tr.appendChild(averageTd);
+    tr.appendChild(normalizedAverageTd);
     tbody.appendChild(tr);
   });
 }
@@ -131,7 +144,7 @@ async function initRanking() {
     const rows = buildTeamRows(data);
     renderRanking(rows);
   } catch (error) {
-    tbody.innerHTML = "<tr><td colspan=\"3\" class=\"status\">No s'han pogut carregar les dades.</td></tr>";
+    tbody.innerHTML = "<tr><td colspan=\"4\" class=\"status\">No s'han pogut carregar les dades.</td></tr>";
   }
 }
 

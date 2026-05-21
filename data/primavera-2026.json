@@ -53,5 +53,17 @@
       "Passerells": 4,
       "Penjats": 3
     }
+  },
+  "Bergants": {
+    "Data": "21/05/2026",
+    "Ranking": {}
+  },
+  "Llunàtics": {
+    "Data": "21/05/2026",
+    "Ranking": {}
+  },
+  "Trempats": {
+    "Data": "21/05/2026",
+    "Ranking": {}
   }
 }
